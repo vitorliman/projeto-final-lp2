@@ -7,9 +7,9 @@ ultima_atualizacao: Dia/mês/ano
 arquivos_relacionados: CHANGELOG.md, docs/uso-de-IA.md, docs/versoes/v1.0-final.md
 ---
 
-# [Nome do projeto]
+# [O Mundo de Scooby-Doo]
 
-[Descrição em uma ou duas frases: qual problema o site resolve e para quem.]
+[Quer saber um pouco mais sobre o Scooby-Doo, você está no lugar certo, aqui falamos o que não te contaram sobre o desenho.]
 
 ## Integrantes
 
