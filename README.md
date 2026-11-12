@@ -1,7 +1,7 @@
 ---
 titulo: Projeto final - Laboratório de Programação 2 (Web)
 descricao: Visão geral do projeto, integrantes, link do site publicado, do protótipo no Figma e da apresentação, além da organização do repositório.
-autores: Nome do integrante 1, Nome do integrante 2, Nome do integrante 3
+autores: Vitor Lima, Gabriel Rodrigues
 versao: v1.0
 ultima_atualizacao: Dia/mês/ano
 arquivos_relacionados: CHANGELOG.md, docs/uso-de-IA.md, docs/versoes/v1.0-final.md
