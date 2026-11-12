@@ -20,8 +20,8 @@ arquivos_relacionados: CHANGELOG.md, docs/uso-de-IA.md, docs/versoes/v1.0-final.
 
 ## Links
 
-- **Site publicado (GitHub Pages):** [https://USUARIO.github.io/projeto-final-lp2/](https://USUARIO.github.io/projeto-final-lp2/)
-- **Protótipo no Figma:** [link]
+- **Site publicado (GitHub Pages):** https://github.com/vitorliman/projeto-final-lp2
+- **Protótipo no Figma:** [https://www.figma.com/design/Q8yD1sl44avj5AHWIHcVwU/trabalho-final?node-id=0-1&t=7I789nLOQmWXihXS-1]
 - **Apresentação:** [link dos slides]
 
 ## Estrutura do repositório
