@@ -12,5 +12,3 @@
 - Filmes e Series -> Essa página referencia as principais obras sobre Scooby Doo.
 - A máquina de Mistério -> Essa página desenvolve a história da maquina de mistério.
 - Sobre nós -> Essa página faz menção sobre os desenvolvedores da página.
--
--
