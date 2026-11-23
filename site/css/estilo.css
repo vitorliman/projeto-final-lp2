@@ -91,7 +91,6 @@ body {
     height: 100%;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
 }
 
 .nome-personagem {
@@ -181,3 +180,80 @@ background-color: rgb(84, 255, 17);
     max-height: 250px;
 
 }
+.pagina-personagens .card-personagem {
+    width: 100%;
+    align-items: center;
+    gap: 50px;
+}
+
+.pagina-personagens .fundo-personagem-salsicha {
+    width: 400px;
+    height: 300px;
+    margin-bottom: 40px;
+    
+}
+.pagina-personagens .descricao-personagem {
+    font-size: 40px;
+    margin-top: 40px;
+    
+}
+.pagina-personagens .nome-personagem {
+    text-align: center;
+    font-size: 50px;
+}
+.pagina-personagens .fundo-personagem-velma {
+    width: 400px;
+    height: 300px;
+    margin-bottom: 40px;
+}
+.descricao-personagem-velma{
+       font-family: Scoobydoo;
+       font-size: 45px;
+}
+.pagina-personagens .fundo-personagem-daphne{
+    width: 400px;
+    height: 300px;
+    margin-bottom: 40px;
+}
+.pagina-personagens .foto-personagem-daphne{
+    padding-right: 170px;
+}
+.pagina-personagens .fundo-personagem-scooby{
+    width: 400px;
+    height: 300px;
+    margin-bottom: 40px;
+}
+.pagina-personagens .fundo-personagem-fred{
+    width: 400px;
+    height: 300px;
+    margin-bottom: 40px;
+}
+.descricao-personagem-fred{
+    font-family: Scoobydoo;
+    font-size: 40px;
+}
+.descricao-personagem-scooby{
+    font-family: Scoobydoo;
+    font-size: 40px;
+}
+.foto-personagem-fred{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+}
+.foto-personagem-daphne{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+}
+.foto-personagem-velma{
+    width: 90%;
+    height: 90%;
+    display: flex;
+    padding-right: 180px;
+    padding-top: 30px;
+}
+
+
