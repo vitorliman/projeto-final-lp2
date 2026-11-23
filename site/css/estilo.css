@@ -105,6 +105,14 @@ body {
     font-size: 25px;
     
 }
+.foto-personagem-xerife{
+     width: 90%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+    padding-top: 10px;
+}
 .fundo-personagem-scrappy-doo {
     background-color: rgb(23, 145, 134);
 }
@@ -256,7 +264,15 @@ background-color: rgb(84, 255, 17);
     padding-top: 30px;
 }
 
-/* MENU DE NAVEGAÇÃO */
+.foto-personagem a {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+}
+
 
 .navbar {
     background-color: #173D67;
@@ -264,6 +280,7 @@ background-color: rgb(84, 255, 17);
     justify-content: space-between;
     align-items: center;
     padding: 15px 30px;
+    
 }
 
 .logo {
@@ -304,16 +321,12 @@ background-color: rgb(84, 255, 17);
 @media (max-width: 900px) {
 
     .navbar ul {
-        display: none;
-        flex-direction: column;
-        align-items: flex-start;
-        position: absolute;
-        top: 65px;
-        right: 0;
-        background-color: #173D67;
-        width: 230px;
-        padding: 20px;
-        z-index: 100;
+    display: flex;
+    align-items: center;
+    gap: 24px; 
+    margin: 0;
+    padding: 0;
+    margin-right: 20px; 
     }
 
     .navbar ul.ativo {
@@ -331,8 +344,217 @@ background-color: rgb(84, 255, 17);
     left: 0;
     width: 100%;
     z-index: 1000;
+    box-sizing: border-box;
+    padding-right: 40px;
 }
 body {
     padding-top: 80px;
 }
 
+.pagina-maquina .fundo-personagem-maquina {
+    width: 340px;
+    height: 190px;
+    background-color: #595959;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagina-maquina .foto-personagem img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.pagina-maquina .rodape-maquina {
+    width: 100%;
+    background-color: #6abed1;
+    padding: 30px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+body.pagina-maquina {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.pagina-maquina .fundo-branco { 
+    padding: 40px 60px;
+    box-sizing: border-box;
+    width: 92%;
+    margin: 40px auto 0 auto;
+}
+    
+.pagina-maquina .rodape-maquina {
+    width: 100%;
+    background-color: #6abed1;
+    padding: 30px 60px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+.pagina-maquina .descricao-personagem{
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+}
+
+.pagina-maquina .card-personagem {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    width: 100%;
+}
+
+.pagina-maquina .descricao-personagem {
+    flex: 1;
+    width: auto;
+    max-width: none;
+}
+.pagina-maquina .nome-personagem{
+    font-size: 30px;
+}
+@media (max-width: 900px) {
+    body {
+        padding-top: 70px;
+    }
+
+    .navbar {
+        padding: 12px 20px;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    #menu.ativo {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background-color: #173D67;
+        width: 230px;
+        padding: 20px;
+        gap: 15px;
+        z-index: 2000;
+        box-sizing: border-box;
+    }
+
+    .menu-botao {
+        display: block;
+    }
+
+    .fundo-branco {
+        margin: 15px;
+        padding: 15px;
+        min-height: auto;
+    }
+
+    .h2 {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 17px;
+    }
+
+    .card-personagem {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .descricao-personagem {
+        font-size: 20px;
+    }
+
+    .pagina-filmes .filmes {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .pagina-filmes .coluna-filmes {
+        width: 100%;
+    }
+
+    .pagina-personagens .card-personagem {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .pagina-personagens .fundo-personagem-salsicha,
+    .pagina-personagens .fundo-personagem-velma,
+    .pagina-personagens .fundo-personagem-daphne,
+    .pagina-personagens .fundo-personagem-scooby,
+    .pagina-personagens .fundo-personagem-fred {
+        width: 100%;
+        max-width: 300px;
+        height: 200px;
+        margin-bottom: 15px;
+    }
+
+    .pagina-personagens .nome-personagem {
+        font-size: 32px;
+    }
+
+    .pagina-personagens .descricao-personagem,
+    .descricao-personagem-velma,
+    .descricao-personagem-fred,
+    .descricao-personagem-scooby {
+        font-size: 24px;
+        margin-top: 10px;
+    }
+
+    .pagina-personagens .foto-personagem-daphne,
+    .foto-personagem-velma {
+        padding-right: 0;
+        padding-top: 0;
+        justify-content: center;
+    }
+
+    .pagina-maquina .fundo-branco {
+        width: 94%;
+        margin: 20px auto 0 auto;
+        padding: 25px 18px;
+    }
+
+    .pagina-maquina .card-personagem {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .pagina-maquina .nome-personagem {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .pagina-maquina .fundo-personagem-maquina {
+        width: 100%;
+        max-width: 300px;
+        height: 170px;
+    }
+
+    .pagina-maquina .descricao-personagem {
+        padding-left: 0;
+        font-size: 20px;
+        text-align: left;
+        width: 100%;
+    }
+
+    .pagina-maquina .rodape-maquina {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+        padding: 25px 20px;
+    }
+}
