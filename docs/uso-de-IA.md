@@ -32,9 +32,9 @@ O modelo de dúvidas tiradas com a assistencia de IA deverão ter o seguinte for
 | 2026-11-23 | ChatGPT | Menu de navegação | site/index.html | Queria colocar um menu na pagina inicial para conseguir acessar as outras partes do site, mas nao sabia muito bem como fazer | Pedi ajuda para entender como funcionava uma navbar e adaptei a ideia para o Scooby-Doo | prints/img-05.png |
 | 2026-11-23 | ChatGPT | Posicionamento do menu | site/css/estilo.css | Nao estava conseguindo deixar o menu na parte de cima da pagina do jeito que queria | Tirei duvidas sobre o posicionamento dos elementos e fiz algumas alterações no CSS | prints/img-06.png |
 | 2026-11-23 | ChatGPT | Organização dos personagens | site/index.html | Estava em duvida de como separar os personagens principais, secundarios, vilões e as outras categorias | Usei as sugestões para organizar melhor as seções e deixar mais facil de navegar | prints/img-07.png |
-| 2026-11-23 | ChatGPT | JavaScript | site/js/main.js | Tinha algumas duvidas de como o JavaScript funcionava junto com o HTML e como fazer os elementos terem alguma interação | Pedi algumas explicações e usei elas para entender melhor o funcionamento do codigo | prints/ia-08.png |
-| 2026-11-23 | ChatGPT | Organização visual | site/css/estilo.css | Algumas partes do site estavam muito juntas e eu nao sabia qual propriedade usar para dar mais espaço entre elas | Tirei duvidas sobre espaçamento e fui testando algumas alterações até ficar melhor | prints/ia-09.png |
-| 2026-11-23 | ChatGPT | Navegação entre paginas | site/index.html | Queria facilitar o acesso às outras paginas do site sem deixar a pagina inicial muito bagunçada | Entendi algumas formas de fazer a navegação e adaptei ao menu do projeto | prints/ia-10.png |
+| 2026-11-23 | ChatGPT | JavaScript | site/js/main.js | Tinha algumas duvidas de como o JavaScript funcionava junto com o HTML e como fazer os elementos terem alguma interação | Pedi algumas explicações e usei elas para entender melhor o funcionamento do codigo |  |
+| 2026-11-23 | ChatGPT | Organização visual | site/css/estilo.css | Algumas partes do site estavam muito juntas e eu nao sabia qual propriedade usar para dar mais espaço entre elas | Tirei duvidas sobre espaçamento e fui testando algumas alterações até ficar melhor |  |
+| 2026-11-23 | ChatGPT | Navegação entre paginas | site/index.html | Queria facilitar o acesso às outras paginas do site sem deixar a pagina inicial muito bagunçada | Entendi algumas formas de fazer a navegação e adaptei ao menu do projeto |  |
 
 
 
